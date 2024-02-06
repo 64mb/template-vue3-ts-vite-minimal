@@ -17,4 +17,15 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2021,
   },
+  rules: {
+    "unicorn/filename-case": [
+      "error",
+      {
+        cases: {
+          camelCase: true,
+          pascalCase: true,
+        },
+      },
+    ],
+  },
 };

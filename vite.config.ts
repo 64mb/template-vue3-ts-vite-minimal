@@ -1,6 +1,6 @@
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
-import path from 'node:path'
+import { defineConfig } from "vite";
+import vue from "@vitejs/plugin-vue";
+import path from "node:path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -8,10 +8,10 @@ export default defineConfig({
   resolve: {
     alias: {
       // eslint-disable-next-line unicorn/prefer-module
-      '@': path.resolve(__dirname, './src')
-    }
+      "@": path.resolve(__dirname, "./src"),
+    },
   },
   build: {
-    target: 'esnext'
-  }
-})
+    target: "esnext",
+  },
+});

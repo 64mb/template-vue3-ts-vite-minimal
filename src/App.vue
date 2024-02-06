@@ -7,7 +7,7 @@
 </template>
 
 <style module lang="postcss">
-.root{
+.root {
   display: flex;
   flex-direction: column;
   align-items: center;
