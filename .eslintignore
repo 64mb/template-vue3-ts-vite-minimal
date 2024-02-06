@@ -1,2 +1,8 @@
-dist/
-coverage/
+node_modules
+
+.cache
+dist
+coverage
+
+package.json
+package-lock.json
